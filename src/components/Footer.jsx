@@ -21,7 +21,7 @@ const Footer = () => {
           Made with love by{" "}
           <a
             className="text-white"
-            href="https://github.com/AndresPineros29"
+            href="https://github.com/AndresPineros29/crypto-bank-landing-page"
             target="_blank"
           >
             AndresPineros29
