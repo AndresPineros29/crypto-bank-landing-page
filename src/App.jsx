@@ -1,0 +1,41 @@
+import {
+  Navbar,
+  Header,
+  Footer,
+  Loan,
+  Offer,
+  Testimonios,
+  Work,
+} from "./components";
+import styles from "./style";
+import "./components/offer.css";
+
+function App() {
+  return (
+    <div className="bg-primary w-full overflow-hidden">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
+      </div>
+
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Header />
+        </div>
+      </div>
+
+      <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth} `}>
+          <Offer />
+          <Loan />
+          <Work />
+          <Testimonios />
+          <Footer />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;

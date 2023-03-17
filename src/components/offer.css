@@ -1,0 +1,76 @@
+.bg-offer {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(0, 4, 15, 0.58) 20%,
+    rgba(27, 47, 83, 0.61) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(0, 4, 15, 0.58) 20%,
+    rgba(27, 47, 83, 0.61) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    0deg,
+    rgba(0, 4, 15, 0.58) 20%,
+    rgba(27, 47, 83, 0.61) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00040F', endColorstr='#1B2F53', GradientType=1 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    0deg,
+    rgba(0, 4, 15, 0.58) 20%,
+    rgba(27, 47, 83, 0.61) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    0deg,
+    rgba(0, 4, 15, 0.58) 20%,
+    rgba(27, 47, 83, 0.61) 100%
+  );
+}
+
+.bg-g1 {
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 0% 50%,
+    rgba(9, 151, 124, 0.1) 0%,
+    rgba(0, 4, 15, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 0% 50%,
+    rgba(9, 151, 124, 0.1) 0%,
+    rgba(0, 4, 15, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 0% 50%,
+    rgba(9, 151, 124, 0.1) 0%,
+    rgba(0, 4, 15, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 0% 50%,
+    rgba(9, 151, 124, 0.1) 0%,
+    rgba(0, 4, 15, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 0% 50%,
+    rgba(9, 151, 124, 0.1) 0%,
+    rgba(0, 4, 15, 1) 100%
+  );
+}
